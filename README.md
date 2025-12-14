@@ -21,14 +21,14 @@
 - **Banco de Dados:** SQLite (:memory:)
 
 ## 📂 Estrutura do Projeto
-`
+```text
 DicomDir/
 ├── Auxiliar/          # Métodos utilitários (Logs, Parsers)
 ├── Data/              # Contexto do Banco (DbContext)
 ├── Models/            # Modelos das Tabelas (Paciente, Estudo, Série, Imagem)
 ├── Services/          # Lógica de Negócio (DicomHandler, DatabaseService)
 └── Program.cs         # Ponto de entrada e Menu do Console
-`    
+```
 ⚙️ Como Rodar
 1- Clone este repositório.
 
